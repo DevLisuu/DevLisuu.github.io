@@ -60,11 +60,11 @@ i{
     align-items: center;
     gap: 48px;
 }
-a, a:link {
+a, a:link, a:visited, a:active {
     text-decoration: none;
     color: var(--font-light);
 }
-footer a, footer a:link {
+footer a, footer a:link, footer a:visited, footer a:active {
     text-decoration: none;
     color: var(--font-dark);
 }
