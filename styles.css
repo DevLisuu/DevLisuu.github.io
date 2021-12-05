@@ -14,6 +14,13 @@ body{
     color: var(--font-light);
     background-color: var(--background);
 }
+#flex-wrapper{
+    margin: 0 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
 main{
     max-width: 800px;
     padding: 40px 0;
@@ -52,29 +59,18 @@ i{
 }
 .link{
     border-bottom: 1px dotted var(--font-light);
-}
-#flex-wrapper{
-    margin: 0 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 48px;
-}
-a, a:link, a:visited, a:active {
     text-decoration: none;
     color: var(--font-light);
 }
-footer a, footer a:link, footer a:visited, footer a:active {
+footer .link{
     text-decoration: none;
     color: var(--font-dark);
-}
-footer .link{
     border-bottom-color: var(--font-dark);
 }
 .link:hover{
     border-bottom-style: solid;
 }
-.active{
+.link.active{
     color: var(--active-tab);
     border-color: var(--active-tab);
 }
