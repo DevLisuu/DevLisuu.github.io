@@ -44,11 +44,13 @@ footer{
     bottom: 24px;
     color: var(--font-dark);
     text-align: center;
+    user-select: none;
 }
 img{
     border-radius: 50%;
     width: 96px;
     margin-bottom: 8px;
+    -webkit-user-drag: none;
 }
 p{
     font-size: 20px;
