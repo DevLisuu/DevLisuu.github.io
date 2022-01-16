@@ -7,10 +7,6 @@
     margin: 0;
     font-family: Calibri;
 }
-body{
-    height: 100vh;
-    width: 100vw;
-}
 a{
     color: var(--black);
     text-decoration: none;
@@ -99,6 +95,7 @@ summary{
     }
 }
 footer{
+    z-index: 2137;
     width: 100%;
     padding: 24px 0 24px 0;
 
